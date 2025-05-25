@@ -7,11 +7,11 @@ pipeline {
 
     environment {
         AWS_ACCOUNT_ID = "862848730563"
-        REGION = "Asia Pacific(sydney)"
+        REGION = "ap-southeast-2"
         REPO_URI = "862848730563.dkr.ecr.ap-southeast-2.amazonaws.com/dev"
         DOCKER_IMAGE = "rd_image2:${VERSION}"
-        DOCKER_REGISTRY = 'docker.io'
-        DOCKER_REGISTRY_CREDENTIALS = 'docker-creds'
+        DOCKER_REGISTRY = 'RD0105.io'
+        DOCKER_REGISTRY_CREDENTIALS = '	RD0105'
     }
 
     stages {
